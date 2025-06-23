@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pro_ecommerce</title>
+  <style>
+    body { font-family: sans-serif; background: #f3f4f6; margin: 0; }
+    h1 { text-align: center; padding: 20px; color: #f97316; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+    .product-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+    .product-card:hover { transform: translateY(-5px); }
+    .product-card img { width: 100%; height: 200px; object-fit: cover; }
+    .product-info { padding: 15px; }
+    .product-info h2 { font-size: 18px; margin: 0 0 10px; color: #111827; }
+    .product-info p { color: #4b5563; margin: 0 0 10px; }
+    .btn { background-color: #f97316; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to pro_ecommerce</h1>
+  <div class="grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 1" />
+      <div class="product-info">
+        <h2>Smartphone A</h2>
+        <p>৳ 18,990</p>
+        <a class="btn" href="#">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 2" />
+      <div class="product-info">
+        <h2>Men's Shirt</h2>
+        <p>৳ 499</p>
+        <a class="btn" href="#">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
